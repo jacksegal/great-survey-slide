@@ -216,3 +216,14 @@ a.socialIcons { /* or whatever your class */
 .footer img {
     margin-bottom: 1.5em;
 }
+
+.nav-bar {
+    text-align: center;
+    padding: 22px;
+    background: white;
+    height: 75px;
+}
+
+.header {
+    border: solid 1px #EA504E;
+}
