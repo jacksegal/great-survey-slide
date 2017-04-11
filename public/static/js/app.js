@@ -30,6 +30,7 @@ $(function () {
             /* submit form */
             var bsdFormId = $(this).attr("data-bsd-form-id");
             submitBsdForm(bsdFormId);
+            fbq('track', 'CompleteRegistration');
 
             /* move to next slide */
             var that = $(this);
